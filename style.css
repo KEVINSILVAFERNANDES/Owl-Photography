@@ -1,0 +1,411 @@
+.logo {
+	width: 60px;
+}
+
+.logo:hover {
+	transform: scale(1.1);
+	transition-duration: 0.3;
+}
+
+.nav-style {
+	border-bottom: 7px solid #6d2ec6;
+}
+
+.text-nav {
+	font-size: 25px;
+	text-shadow: 1px 1px black;		
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+	color: #6d2ec6;
+	margin-right: 20px;	
+}
+
+.carousel-style {
+	border-bottom: 7px solid #6d2ec6;
+}
+
+.img-carousel {
+	height: 100%;
+	height: 200px;
+}
+
+.banner-text {
+	color: #F0FFF0;	
+	font-size: 30px;
+	text-shadow: 2px 2px black;
+}
+
+.page-header-form {
+	margin-top: 0;
+	height: 200px;
+	color: #6d2ec6;
+	text-align: center;
+	background-color: #d5d6e3;	
+}
+
+.text-header {
+	padding-top: 5px;
+	font-size: 40px;
+	text-shadow: 1px 1px black;
+}
+
+.text-header-paragrafo {
+	font-size: 20px;
+}
+
+header, body {
+	background-color: #6d2ec6;
+	font-family: 'Teko', sans-serif;
+}
+
+
+.titulo-photography {
+	color: #d5d6e3;
+	font-size: 40px;	
+	margin-top: 20px;
+	text-align: center;
+	text-shadow: 2px 2px black;
+}
+
+.img-cards {
+	width: 100%;
+	height: 220px;
+}
+
+
+.background-cards {	
+	line-height: 20px;	
+	margin: 5px 5px 25px 5px;
+	background-color: #d5d6e3;
+	box-shadow: 1px 1px black;
+}
+
+.titulo-card {
+	font-size: 40px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-shadow: 1px 1px black;
+}
+
+.paragrafo-card {
+	color: #6d2ec6;
+	font-size: 23px;
+	background-color: #d5d6e3;
+}
+
+.jumbotron {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	background-color: #d5d6e3;
+	
+}
+
+.facts {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;	
+}
+
+.owl-facts {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+}
+
+.text-facts {
+	color: #6d2ec6;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 20px;
+	text-shadow: 1px 1px black;
+
+}
+
+.titulo-video {
+	color: #6d2ec6;
+	font-size: 40px;
+	margin-top: 1em;
+	text-shadow: 1px 1px black;
+}
+
+.video-owl-mobile {
+	width: 100%;
+	margin-bottom: 20px;	
+}
+
+.img-banner4 {
+	width: 100%;
+	height: 200px;
+}
+
+.button-card-style {
+	height: 50px;
+	color: #6d2ec6;
+	background-color: #d5d6e3;
+}
+
+.button-style {
+	color: #6d2ec6;
+	font-size: 24px;
+	box-shadow: none;	
+	background-color: #d5d6e3;	
+}
+
+.accordion-button:not(.collapsed) {
+	color: #6d2ec6;
+	box-shadow: none;
+	background-color: #d5d6e3;
+}
+
+.accordion-button:focus {
+	box-shadow: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+	background-image: url(img/seta.png); 
+}
+
+.sobre-nos-text {
+	margin-top: 20px;
+	font-size: 40px;
+	color: #F0FFF0;
+	text-shadow: 2px 2px black;
+}
+
+.img-me {
+	height: 160px;
+	width: 160px;
+	border-radius: 360px;
+	margin-bottom: 10px;
+}
+
+.paragrafo-about1 {
+	font-size: 23px;
+	color: #6d2ec6;	
+	text-align: left;
+	background-color: #d5d6e3;
+}
+
+.paragrafo-about2 {
+	font-size: 23px;
+	color: #6d2ec6;	
+	text-align: center;
+	background-color: #d5d6e3;
+}
+
+.segundo-paragrafo {
+	margin-top: 20px;
+}
+
+footer {
+	color: black;
+	padding: 20px;
+	padding: 40px 0;
+	margin-top: 100px;
+	text-align: center;
+	background-color: #d5d6e3;
+	text-shadow: 1px 1px white;
+}
+
+.img-footer {
+	width: 120px;
+}
+
+
+@media(min-width: 768px) {
+
+	.logo {
+		width: 80px;
+	}
+
+	.navbar-brand {
+		margin-right: 0;
+		
+	}
+
+	.img-carousel {
+		height: 100%;
+		height: 300px;
+	}
+
+	.page-header-form {
+		height: 300px;
+	}
+
+	.text-header {
+		font-size: 60px;
+		padding-top: 40px;
+	}
+
+	.text-header-paragrafo {
+		font-size: 30px;
+	}
+
+	
+	.img-cards {
+		width: 100%;
+		height: 200px;
+	}
+
+	.background-cards {
+		margin: 0 0 25px 0;
+	}
+
+	.owl-facts {
+		margin-top: 3em;	
+	}
+
+	.video-owl {
+		width: 100%;
+		margin-bottom: 3em;
+	}
+
+	.titulo-video {
+		text-align: center;
+	}
+
+	.img-banner4 {
+		width: 100%;
+		height: 300px;
+	}
+
+
+} 
+
+
+@media(min-width: 992px) {
+
+	.logo {
+		width: 70px;
+		margin-right: 5px;
+		margin-left: 2.5em;
+	}
+
+	.nav-form {
+		margin-left: 28em;
+	}
+	
+	.carousel-style {
+		margin-top: 0;
+	}
+
+	.img-carousel {
+		height: 100%;
+		height: 600px;
+	}
+
+	.page-header-form {
+		height: 300px;
+	}
+
+	.text-header {
+		font-size: 60px;
+		padding-top: 40px;
+	}
+
+	.text-header-paragrafo {
+		font-size: 30px;
+	}
+
+	.titulo-photography {
+		font-size: 60px;
+		text-align: center;
+		margin-top: 40px;
+		margin-bottom: 20px;
+		text-shadow: 2px 2px black;
+	}
+
+	.img-cards {
+		width: 100%;
+		height: 300px;
+	}
+
+	.jumbotron {
+		margin-top: 40px;
+		margin-bottom: 40px;		
+	}
+
+	.facts {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: middle;
+		justify-content: space-between;
+	}
+
+	.banner-and-text-facts {
+		width: 50%;		
+	}
+
+	.text-facts {
+		font-size: 50px;
+		text-align: center;
+		margin-top: 30px;
+		text-shadow: 1px 1px black;
+	}
+
+	.owl-facts {
+		width: 100%;
+		margin-top: 10px;
+		margin-bottom: 40px;			
+	}
+
+	.titulo-video {
+		font-size: 40px;
+		margin-top: 1em;
+	}
+
+	.video-owl {
+		width: 50%;
+		padding: 20px;
+	}	
+
+	.img-banner4 {
+		width: 50%;
+		height: 300px;
+	}
+
+	.sobre-nos {
+		display: flex;
+		margin-top: 40px;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.form-sobre-nos {
+		width: 45%;
+	}
+
+	.img-footer {
+		width: 100px;
+	}
+
+}
+
+
+@media(min-width: 1024px) {
+
+	.nav-form {
+		margin-left: 7em;
+	}
+
+	.logo {
+		margin-left: 2.5em;
+	}
+
+}
+
+
+@media(min-width: 1280px) {
+
+	.nav-form {
+		margin-left: 17em;
+	}
+
+	.logo {
+		margin-left: 2.5em;
+	}
+
+}
